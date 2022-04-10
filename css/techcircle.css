@@ -1,3 +1,4 @@
+
 body{
     max-width: 800px; 
     display: block;
@@ -13,10 +14,14 @@ body{
     color: white;
     height: 140px;
     line-height: 140px;
-    background-color: rgb(139, 139, 139);  
+    /* background-color: rgb(139, 139, 139);  */
+    background-image: url("https://imgtu.com/i/LkacLT"); 
+    background-size: cover;
+    background-position: 0%;
 }
 .ctitle{
     margin-top: 20px;
+    color: rgb(0, 83, 92);
     /* border-bottom: 1px solid black; */
 }
 
@@ -37,14 +42,14 @@ body{
     flex-direction: column;
     justify-content: space-between;
     /* border: 1px solid lightgrey; */
-    background-color: rgb(245, 245, 245);
+    background-color: rgb(242, 247, 247);
     margin-bottom: 10px;
     
 }
 .frame a{
     display: block;
-    background-color: rgb(231, 230, 230);
-    color: rgb(128, 128, 128);
+    background-color: rgb(232, 245, 246);
+    color: rgb(129, 129, 129);
     font-size: 30px;
     height: 50px;
     line-height: 50px;
@@ -71,4 +76,8 @@ span{
     padding: 0 20px 0 20px ;
     text-align: center;
     overflow: hidden;
+}
+.footer{
+    display: block;
+    height: 30px;
 }
