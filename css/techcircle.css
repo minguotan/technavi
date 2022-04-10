@@ -1,0 +1,74 @@
+body{
+    max-width: 800px; 
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Songti SC;
+}
+.head,.global{
+    width: 800px;
+    display: block;
+}
+.head{
+    color: white;
+    height: 140px;
+    line-height: 140px;
+    background-color: rgb(139, 139, 139);  
+}
+.ctitle{
+    margin-top: 20px;
+    /* border-bottom: 1px solid black; */
+}
+
+.wrapper{
+    display: flex;
+    max-width: 800px;
+    max-height: 450px;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    margin-top: 20px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.frame{
+    width: 260px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* border: 1px solid lightgrey; */
+    background-color: rgb(245, 245, 245);
+    margin-bottom: 10px;
+    
+}
+.frame a{
+    display: block;
+    background-color: rgb(231, 230, 230);
+    color: rgb(128, 128, 128);
+    font-size: 30px;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 3px solid rgb(255, 255, 255);
+}
+.label{
+    display: flex;
+    justify-content:center;
+    align-items:baseline;
+    /* background-color: white; */
+    color: rgb(210, 209, 209);
+    border-top: 2px solid rgb(255, 255, 255);
+    /* padding-left: 20px; */
+}
+span{
+    margin: 0 5px 0 5px;
+}
+.frame p1{
+    display: block;
+    color: rgb(144, 143, 143);
+    /* height: 60px; */
+    line-height: 20px;
+    margin: 0;
+    padding: 0 20px 0 20px ;
+    text-align: center;
+    overflow: hidden;
+}
