@@ -81,7 +81,11 @@ span{
     display: block;
     height: 30px;
 }
-scrollbar-width: none; /* Firefox */
--ms-overflow-style: none; /* IE 10+ */
+div{
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE 10+ */
+    overflow-y:auto;
+}
+
 ::-webkit-scrollbar {
   display: none; /* Chrome Safari */}
