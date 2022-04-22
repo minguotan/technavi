@@ -81,11 +81,13 @@ span{
     display: block;
     height: 30px;
 }
+/*
 div{
-    scrollbar-width: none; /* Firefox */
-    -ms-overflow-style: none; /* IE 10+ */
+    scrollbar-width: none; 
+    -ms-overflow-style: none; 
     overflow-y:auto;
 }
 
 ::-webkit-scrollbar {
-  display: none; /* Chrome Safari */}
+  display: none; }
+*/
